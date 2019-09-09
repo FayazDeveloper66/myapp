@@ -35,7 +35,7 @@ export class MoviealbumsComponent implements OnInit {
   }
   cancel() {
     console.log('cancelled')
-    
+    this.router.navigate(['/favoritealbums'])
   }
 
 }
